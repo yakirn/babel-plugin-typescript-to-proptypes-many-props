@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-typescript-to-proptypes-many-props",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "test": "babel src -d lib --extensions '.tsx'"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/react": "^16.8.17",
+    "babel-plugin-typescript-to-proptypes": "^0.17.1",
+    "typescript": "^3.4.5"
+  },
+  "license": "ISC"
+}
